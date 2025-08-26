@@ -1,0 +1,5 @@
+str=input("pls enter your string")
+print(f"given string is {str}")
+n=int(input("provide the first n characters to remove"))
+print("your new string will be")
+print(str[n::])
