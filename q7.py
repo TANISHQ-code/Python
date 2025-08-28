@@ -1,12 +1,6 @@
-str_x=input("pls enter your statement")
-a=0
-for i in range (len(str_x)):
-    if str_x[i]=='e':
-        if str_x[i+1]=='m':
-            if str_x[i+2]=='m':
-                if str_x[i+3]=='a':
-                    a+=1
-        else:
-            continue
+tuple1 = (10, 20, 30, 40)
+a,b,c,d=tuple1
 print(a)
-#use count keyword next time
+print(b)
+print(c)
+print(d)

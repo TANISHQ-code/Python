@@ -1,6 +1,6 @@
-income=float(input("pls enter your input"))
-if income<=10000:
-    print("chal be gareeb")
+t1 = (1, 2, 3)
+t2 = (1, 2, 4)
+if t1>t2:
+    print("t1>t2")
 else:
-    tax=10000*0+(10000*10)/100+((income-20000)*20)/100
-    print(f"you owe {tax}")
+    print("t2>t1")

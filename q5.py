@@ -1,13 +1,2 @@
-list=[]
-n=0
-while True:
-    integer=int(input("enter integer values press 69 to exit (press "" to continue)"))
-    if integer==69:
-        break
-    else:
-        list.append(integer)
-        n+=1
-if list[0]==list[n-1]:
-    print("TRUE")
-else:
-    print("FALSE")
+tuple1 = ("Orange", [10, 20, 30], (5, 15, 25))
+print(tuple1[1][1])

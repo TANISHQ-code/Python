@@ -1,8 +1,5 @@
-list=[0,1]
-j=0
-for i in range (2,15):
-    j=list[i-1]+list[i-2]
-    list.append(j)
-print(list)
-
-
+tuple1 = (('a', 23),('b', 37),('c', 11), ('d',29))
+list1=list(tuple1)
+sorted_list=sorted(list1,key=lambda item:item[1])
+tuple2=tuple(sorted_list)
+print(tuple2)

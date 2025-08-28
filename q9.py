@@ -1,5 +1,3 @@
-str=input("pls enter your number")
-if (str==str[::-1]):
-    print("yes its a pallindrone number ")
-else:
-    print("no its not a pallindrone number")
+tuple1 = (11, 22, 33, 44, 55, 66)
+tuple2=tuple1[3:-1]
+print(tuple2)
