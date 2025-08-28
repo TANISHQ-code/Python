@@ -1,2 +1,6 @@
-tuple1=(50)
-print(tuple1)
+def sum(a):
+    if a:
+        return a+sum(a-1)
+    else:
+        return 0
+print(sum(10))

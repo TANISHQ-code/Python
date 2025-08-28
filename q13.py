@@ -1,4 +1,10 @@
-my_tuple = (1, 2, 2, 3, 4, 4, 5)
-sets=set(my_tuple)
-sets=tuple(sets)
-print(sets)
+def factorial(x):
+    if x<0:
+        return
+    elif x:
+        return x*factorial(x-1)
+    else:
+        return 1
+num=int(input("write a number to find its factorial?"))
+ans=factorial(num)
+print(ans)

@@ -1,2 +1,6 @@
-tuple1 = (50, 10, 60, 70, 50)
-print(tuple1.count(50))
+def apply_operation( x, y):
+    return x+y
+def func(x,y):
+    ans=apply_operation(x,y)
+    return ans
+print(func(10,5))

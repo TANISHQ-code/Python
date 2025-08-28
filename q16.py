@@ -1,3 +1,3 @@
-tuple1 = (11, [22, 33], 44, 55)
-tuple1[1][1]=222
-print(tuple1)
+numbers = [1, 2, 3, 4, 5]
+double=map(lambda x:x*2,numbers)
+print(list(double))

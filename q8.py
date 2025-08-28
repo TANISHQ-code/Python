@@ -1,6 +1,8 @@
-tuple1 = (11, 22)
-tuple2 = (99, 88)
-tuple3=()
-tuple1,tuple2=tuple2,tuple1
-print(tuple1)
-print(tuple2)
+def even_check(a,b):
+    even=[]
+    for x in range(a,b+1):
+        if x%2==0:
+            even.append(x)
+    return even
+result=even_check(4,30)
+print(result)

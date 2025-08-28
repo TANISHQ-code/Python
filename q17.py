@@ -1,5 +1,3 @@
-tuple1 = (('a', 23),('b', 37),('c', 11), ('d',29))
-list1=list(tuple1)
-sorted_list=sorted(list1,key=lambda item:item[1])
-tuple2=tuple(sorted_list)
-print(tuple2)
+data = [('apple', 5), ('banana', 2), ('cherry', 8), ('date', 1)]
+sort=sorted(data,key=lambda item:item[1])
+print(sort)

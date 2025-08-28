@@ -1,6 +1,9 @@
-t1 = (1, 2, 3)
-t2 = (1, 2, 4)
-if t1>t2:
-    print("t1>t2")
-else:
-    print("t2>t1")
+global_var = 10
+
+def modify_global_var():
+    global global_var
+    global_var = 20
+    print("Inside function:", global_var)
+
+modify_global_var()
+print("Outside function:", global_var)

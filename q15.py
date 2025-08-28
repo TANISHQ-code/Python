@@ -1,4 +1,3 @@
-
-t = (1, 2, 3, 4)
-square=tuple(map (lambda x:x**2,t))
-print(square)
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even=filter(lambda x:x%2==0,numbers)
+print(list(even))

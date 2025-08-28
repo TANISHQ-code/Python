@@ -1,2 +1,4 @@
-tuple1 = (10, 20, 30, 40, 50)
-print(tuple1[::-1])
+def show_employee(name,salary=12000):
+    print(name)
+    print(salary)
+show_employee("Tanishq")

@@ -1,2 +1,6 @@
-numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-print((numbers[3:7]))
+def addsub(a,b):
+    res1=a+b
+    res2=a-b
+    return res1,res2
+result=addsub(40,10)
+print(result)

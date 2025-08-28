@@ -1,3 +1,9 @@
-tuple1 = (11, 22, 33, 44, 55, 66)
-tuple2=tuple1[3:-1]
-print(tuple2)
+def largest(list=[]):
+    result=list[0]
+    for x in list:
+        if x>result:
+            result=x
+    return result
+x = [4, 6, 8, 24, 12, 2]
+ans=largest(x)
+print(ans)

@@ -1,3 +1,5 @@
-my_tuple=(1,2,3,4,5)
-print(my_tuple[2])
-print(len(my_tuple))
+def info(name,age):
+    print(f"name:{name}")
+    print(f"age:{age}")
+
+info("Tanishq",23)

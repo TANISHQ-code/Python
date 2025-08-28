@@ -1,8 +1,13 @@
-def get_min_max(numbers):
-    tuple1=tuple(numbers)
-    return min(numbers),max(numbers)
+def print_info(**kwargs):
+    if kwargs:
+        print("infooo..")
+        for key,value in kwargs.items():
+            print(f"{key}:{value}")
+    else:
+        print("no info provided")
 
-list1 = [10, 5, 20, 2, 15]
-min_max_values = get_min_max(list1)
-print(f"Original numbers: {list1}")
-print(f"Minimum and maximum values: {min_max_values}")
+print_info(name="Alice", age=30, city="New York")
+print_info(job="Engineer", salary=75000)
+print_info(country="USA", state="California", zip_code="90210")
+print_info()  # Call with no arguments
+ 

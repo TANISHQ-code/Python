@@ -1,6 +1,6 @@
-tuple1 = (10, 20, 30, 40)
-a,b,c,d=tuple1
-print(a)
-print(b)
-print(c)
-print(d)
+def display_student(name, age):
+    print(name, age)
+
+display_student("Emma", 26)
+new_student=display_student
+new_student("Emma",26)
