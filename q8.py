@@ -1,3 +1,8 @@
-list1 = [10, 20, 30, 40, 50]
-for x in range(len((list1))-1,-1,-1):
-    print(list1[x])
+i=1
+a=0
+k=1
+for i in range (1,6):
+    for j in range (i):
+        print(k,end=" ")
+    k+=1
+    print()

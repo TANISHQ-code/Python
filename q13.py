@@ -1,4 +1,5 @@
-sample_dict = {'a': 100, 'b': 200, 'c': 300}
-x=200
-if x in sample_dict.values():
-    print(f"{x} present in dictionary")
+
+for i in range(1,11):
+    for j in range (1,11):
+        print(i*j,end=' ')
+    print()

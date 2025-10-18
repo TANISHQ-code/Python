@@ -1,10 +1,13 @@
-numbers = [12, 75, 150, 180, 145, 525, 50]
-answer=[]
-for x in numbers:
-    if x%5==0 and x<=150:
-        answer.append(x)
-    elif x>150 and x<500:
-        continue
-    elif x>500:
+list=[]
+n=0
+while True:
+    integer=int(input("enter integer values press 69 to exit (press "" to continue)"))
+    if integer==69:
         break
-print(answer)
+    else:
+        list.append(integer)
+        n+=1
+if list[0]==list[n-1]:
+    print("TRUE")
+else:
+    print("FALSE")

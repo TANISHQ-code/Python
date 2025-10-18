@@ -1,5 +1,15 @@
-sum=int(input("write a number to get its sum from 1 to itself"))
-answer=0
-for x in range(1,sum+1):
-    answer+=x
-print(answer)
+characters=[]
+while True:
+    item=input("pls write the list of charecters press 'Q'to exit")
+    if item.lower()=='q':
+        break
+    else:
+        characters.append(item)
+print(f"orignal string is {characters}")
+print("printing only even indexed characters")
+
+for x in characters:
+    if characters.index(x)%2==0:
+        print(x)
+    else:
+        continue

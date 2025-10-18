@@ -1,4 +1,5 @@
-table=int(input("write a number to get its table"))
-
-for x in range (1,11):
-    print(f"{table}x{x}={table*x}")
+str=input("pls enter your string")
+print(f"given string is {str}")
+n=int(input("provide the first n characters to remove"))
+print("your new string will be")
+print(str[n::])

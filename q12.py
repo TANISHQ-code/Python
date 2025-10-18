@@ -1,12 +1,6 @@
-sample_dict = {
-    "name": "Kelly",
-    "age": 25,
-    "salary": 8000,
-    "city": "New york"
-}
-
-# Keys to remove
-keys = ["name", "salary"]
-for k in keys:
-    del sample_dict[k]
-print(sample_dict)
+income=float(input("pls enter your input"))
+if income<=10000:
+    print("chal be gareeb")
+else:
+    tax=10000*0+(10000*10)/100+((income-20000)*20)/100
+    print(f"you owe {tax}")
