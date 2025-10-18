@@ -1,2 +1,4 @@
-numbers=(1,2,3,4,5,6,7,8,9,10)
-print(numbers[4:8])
+set1 = {10, 20, 30, 40, 50}
+set2 = {30, 40, 50, 60, 70}
+set3=set1.intersection(set2)
+print(set3)

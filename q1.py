@@ -1,3 +1,5 @@
-my_tuple=(1,2,3,4,5)
-print(my_tuple[2])
-print(len(my_tuple))
+sets={'apple','banana','mango','orange'}
+sets.add('grape')
+sets.remove('banana')
+sets.discard('mango')
+print(sets)
