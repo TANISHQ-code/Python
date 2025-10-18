@@ -1,3 +1,3 @@
-numbers = [5, 2, 8, 1, 9]
-numbers.sort()
-print(numbers)
+list=[10,20,30]
+tuple1=tuple(list)
+print(tuple1)

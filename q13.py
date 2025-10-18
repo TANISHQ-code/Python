@@ -1,5 +1,4 @@
-def remove_value(lists,val):
-    return[i for i in lists if i!=val]
-list1 = [5, 20, 15, 20, 25, 50, 20]
-res=remove_value(list1,20)
-print(res)
+my_tuple = (1, 2, 2, 3, 4, 4, 5)
+sets=set(my_tuple)
+tup=tuple(sets)
+print(tup)

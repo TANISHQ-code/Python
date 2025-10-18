@@ -1,5 +1,3 @@
-a=[1,2,3,4,5,6,7]
-b=[]
-for items in a:
-    b.append(items**2)
-print(b)
+tuple1 = ("Orange", [10, 20, 30], (5, 15, 25))
+a,b,c=tuple1
+print(b[1])

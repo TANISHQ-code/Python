@@ -1,5 +1,5 @@
-a=[8,2,15,1,9]
-maxi=max(a)
-mini=min(a)
-print(maxi,mini)
-
+tuple1=(11,22)
+tuple2=(99,88)
+tuple1,tuple2=tuple2,tuple1
+print(tuple1)
+print(tuple2)

@@ -1,3 +1,2 @@
-list1=[100,200,300,400,500]
-list1.reverse()
-print(list1)
+tuple=(10,20,30,40,50)
+print(tuple[::-1])
