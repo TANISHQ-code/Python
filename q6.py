@@ -1,4 +1,8 @@
-set1 = {10, 20, 30}
-set2 = {20, 40, 50}
-set1.difference_update(set2)
-print(set1)
+string1 = 'Jessa'
+freq_dict={}
+for char in string1:
+    if string1.count(char)>1:
+        freq_dict[char]=string1.count(char)
+    else:
+        freq_dict[char]=1
+print(freq_dict)

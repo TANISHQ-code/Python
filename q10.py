@@ -1,3 +1,4 @@
-set1 = {10, 20}
-set2 = {10, 20, 30, 40}
-print(set2.issuperset(set1))
+employees = ['Kelly', 'Emma']
+defaults = {"designation": 'Developer', "salary": 8000}
+res=dict.fromkeys(employees,defaults)
+print(res)

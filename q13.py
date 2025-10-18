@@ -1,4 +1,4 @@
-set1 = {10, 20, 30, 40, 50}
-set2 = {30, 40, 50, 60, 70}
-set1.intersection_update(set2)
-print(set1)
+sample_dict = {'a': 100, 'b': 200, 'c': 300}
+x=200
+if x in sample_dict.values():
+    print(f"{x} present in dictionary")
