@@ -1,6 +1,4 @@
-str1 = "Emma25 is Data scientist50 and AI Expert"
-list1=[]
-temp=str1.split()
-for item in temp:
-    if any(char.isapha() for char in item 
-
+list1 = ["M", "na", "i", "Ke"]
+list2 = ["y", "me", "s", "lly"]
+list3=[i+j for i,j in zip(list1,list2)]
+print(list3)

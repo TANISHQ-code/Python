@@ -1,7 +1,5 @@
-def new_string(s1,s2):
+a=[8,2,15,1,9]
+maxi=max(a)
+mini=min(a)
+print(maxi,mini)
 
-    s3=s1[0]+s2[-1]+s1[1]+s2[-2]+s1[2:]+s2[0:len(s2)-2]
-    print(s3)
-s1 = "Abc"
-s2 = "Xyz"
-new_string(s1,s2)

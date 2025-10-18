@@ -1,12 +1,10 @@
-str1 = "PYnative29@#8496"
-count=0
-no_of_digits=0
-for char in str1:
-    if char.isdigit():
-        count+=int(char)
-        no_of_digits+=1
-avg=count/no_of_digits
-        
-print(f"sum of digits={count}")
-print(f"average={avg}")
-
+a=[10,20,30]
+print(a)
+b=list(a)
+b.append(69)
+print(b)
+c=a.copy()
+c.remove(10)
+print(c)
+d=a[:]
+print(d)

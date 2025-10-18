@@ -1,6 +1,4 @@
-def apply_operation( x, y):
-    return x+y
-def func(x,y):
-    ans=apply_operation(x,y)
-    return ans
-print(func(10,5))
+list1 = ["Hello ", "take "]
+list2 = ["Dear", "Sir"]
+new_list=[x+y for x in list1 for y in list2]
+print(new_list)

@@ -1,16 +1,5 @@
-str1 = "P@#yn26at^&i5ve"
-alphabets=0
-digits=0
-symbol=0
-for char in str1:
-    if char.isalpha():
-        alphabets+=1
-    elif char.isdigit():
-        digits+=1
-    else:
-        symbol+=1
-print("no of alphabets,digits and symbols are : ")
-print(f"alphabets={alphabets}")
-print(f"digits={digits}")
-print(f"symbol={symbol}")
-
+a=[1,2,3,4,5,6,7]
+b=[]
+for items in a:
+    b.append(items**2)
+print(b)

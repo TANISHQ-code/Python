@@ -1,6 +1,4 @@
-str1='Apple'
-char_dict=dict()
-for char in str1:
-    count=str1.count(char)
-    char_dict[char]=count
-print(char_dict)
+a=[1,2]
+b=[3,4]
+c=a+b
+print(c)

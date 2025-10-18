@@ -1,8 +1,7 @@
-s1 = "America"
-s2 = "Japan"
-first=s1[0]+s2[0]
-middle=s1[int(len(s1)/2) ] + s2[int(len(s2)/2)]
-last2=s2[int(len(s2)/2)+1:]
-full=first+middle+last2
-print(full)
-
+a=[10,20,30,40,50]
+sum=0
+for items in a:
+    sum+=items
+print(sum)
+avg=sum/len(a)
+print(avg)
