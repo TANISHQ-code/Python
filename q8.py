@@ -1,12 +1,3 @@
-sampleDict = {
-    "class": {
-        "student": {
-            "name": "Mike",
-            "marks": {
-                "physics": 70,
-                "history": 80
-            }
-        }
-    }
-}
-print(sampleDict['class']['student']['marks']['history'])
+list1 = [10, 20, 30, 40, 50]
+for x in range(len((list1))-1,-1,-1):
+    print(list1[x])

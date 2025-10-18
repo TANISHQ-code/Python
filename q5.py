@@ -1,5 +1,10 @@
-dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
-dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
-dict3=dict1.copy()
-dict3.update(dict2)
-print(dict3)
+numbers = [12, 75, 150, 180, 145, 525, 50]
+answer=[]
+for x in numbers:
+    if x%5==0 and x<=150:
+        answer.append(x)
+    elif x>150 and x<500:
+        continue
+    elif x>500:
+        break
+print(answer)

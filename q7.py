@@ -1,3 +1,7 @@
-data = {'person': {'name': 'Alice', 'age': 30}}
-age=data['person']['age']
-print(f'Alice age is :{age}')
+a=5
+for x in range(1,6):
+    while a!=0:
+        print(a,end=" ")
+        a-=1
+    a+=5-x
+    print()

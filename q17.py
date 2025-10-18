@@ -1,7 +1,12 @@
-tuple1 = (('a', 23),('b', 37),('c', 11), ('d',29))
-list1=list(tuple1)
-sorted_list=sorted(list1,key=lambda item: item[1])
-print(sorted_list)
+num=int(input("write in number"))
+n=int(input("print the number of terms"))
 
-
-
+ans=0
+real_ans=0
+y=num
+for x in range (1,n+1):
+    
+    ans+=y
+    real_ans+=ans
+    y*=10
+print(real_ans)

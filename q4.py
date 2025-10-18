@@ -1,3 +1,4 @@
-my_dict = {'name': 'Alice', 'age': 35, 'city': 'New York'}
-my_dict.clear()
-print(my_dict)
+table=int(input("write a number to get its table"))
+
+for x in range (1,11):
+    print(f"{table}x{x}={table*x}")

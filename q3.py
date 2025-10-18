@@ -1,4 +1,5 @@
-keys = ['Ten', 'Twenty', 'Thirty']
-values = [10, 20, 30]
-dictionary=dict(zip(keys,values))
-print(dictionary)
+sum=int(input("write a number to get its sum from 1 to itself"))
+answer=0
+for x in range(1,sum+1):
+    answer+=x
+print(answer)
