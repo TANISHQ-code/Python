@@ -1,4 +1,6 @@
-square=lambda x:x**2
-number = 5
-squared_number = square(number)
-print(f"The square of {number} is {squared_number}")
+str_list = ["Emma", "Jon", "", "Kelly", None, "Eric", ""]
+new_list=[]
+for obj in str_list:
+    if obj:
+        new_list.append(obj)
+print(new_list)

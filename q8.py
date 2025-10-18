@@ -1,8 +1,10 @@
-def even_check(a,b):
-    even=[]
-    for x in range(a,b+1):
-        if x%2==0:
-            even.append(x)
-    return even
-result=even_check(4,30)
-print(result)
+str1 = "Welcome to USA. usa awesome, isn't it?"
+sub_string = "USA"
+
+
+temp_str = str1.lower()
+
+
+count = temp_str.count(sub_string.lower())
+print("The USA count is:", count)
+

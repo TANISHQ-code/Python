@@ -1,5 +1,2 @@
-def info(name,age):
-    print(f"name:{name}")
-    print(f"age:{age}")
-
-info("Tanishq",23)
+str1="James"
+print(str1[0]+str1[2]+str1[4])

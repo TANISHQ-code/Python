@@ -1,4 +1,6 @@
-def describe_pet(animal_type, pet_name):
-    print(animal_type,pet_name)
-describe_pet("Labra","larry")
-describe_pet(animal_type="Larry",pet_name="labra")
+str1='Apple'
+char_dict=dict()
+for char in str1:
+    count=str1.count(char)
+    char_dict[char]=count
+print(char_dict)

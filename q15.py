@@ -1,3 +1,4 @@
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-even=filter(lambda x:x%2==0,numbers)
-print(list(even))
+str1 = "/*Jon is @developer & musician"
+for char in str1:
+    if char == char.isdigit() or char.isalpha() or ' ':
+        print(char,end='')

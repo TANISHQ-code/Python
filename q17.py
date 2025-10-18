@@ -1,3 +1,6 @@
-data = [('apple', 5), ('banana', 2), ('cherry', 8), ('date', 1)]
-sort=sorted(data,key=lambda item:item[1])
-print(sort)
+str1 = "Emma25 is Data scientist50 and AI Expert"
+list1=[]
+temp=str1.split()
+for item in temp:
+    if any(char.isapha() for char in item 
+
